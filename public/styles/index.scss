@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Spartan';
+}
+main {
+    .heading {
+        font-size: 31px;
+        margin: 25px;
+    }
+    .para {
+        font-size: 12px;
+        margin: 0px 0px 10px 0px;
+        line-height: 25px;
+    }
+    input {
+        background-color: transparent;
+        border: white 1px solid;
+        padding: 25px 50px;
+        text-transform: uppercase;
+        word-spacing: 5px;
+        letter-spacing: 2px;
+        color: white;
+        margin-top: 40px;
+    }
+    .hero {
+        background-image: url('../images/homepage/hero-bg-mobile.jpg');
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 235px 20px 150px 20px;
+        color: white;
+        img {
+            width: 85px;
+            height: auto;
+        }
+    }
+    .enjoyable-place-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 20px 90px 20px;
+        text-align: center;
+        img {
+            position: relative;
+            top: -70px;
+            box-shadow: 0px 55px 55px 5px rgba($color: #000000, $alpha: .35);
+        }
+    }
+    .locally-sourced-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 20px 90px 20px;
+        text-align: center;
+        img {
+            margin-bottom: 50px;
+            box-shadow: 0px 55px 55px 5px rgba($color: #000000, $alpha: .35);
+        }
+    }
+    .highlights-container {
+        background-color: black;
+        color: white;
+        padding: 75px 20px;
+        text-align: center;
+        .highlight {
+            padding: 40px 0px 20px 0px;
+            line-height: 30px;
+            img {
+                padding-bottom: 20px;
+            }
+            .text {
+                font-size: 12px;
+                padding: 0px 20px;
+            }
+        }
+    }
+    .family-gathering-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 75px 20px;
+        text-align: center;
+        img {
+            margin-bottom: 50px;
+            box-shadow: 0px 55px 55px 5px rgba($color: #000000, $alpha: .35);
+        }
+        input {
+            background-color: black;
+        }
+    }
+    .ready {
+        background: url('../images/homepage/ready-bg-mobile.jpg');
+        background-repeat: no-repeat;
+        padding: 45px 25px;
+        text-align: center;
+        color: white;
+    }
+    
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding: 55px 40px;
+    color: white;
+
+}
